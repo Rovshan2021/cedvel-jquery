@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <table  border="1" float="center">
+        <thead>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>İşlədiyiniz Şirkət</th>
+            <th>Maaş</th>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Yeni Məlumat Əlavə Edin</button>
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Yeni Məlumat</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+
+                <div class="mb-3">
+                    <label for="ad" class="col-form-label">Adınız: </label>
+                    <input type="text" class="form-control" name="ad" id="ad" placeholder="Adınız">
+                </div>
+                <div class="mb-3">
+                    <label for="soyad" class="col-form-label">Soyadınız: </label>
+                    <input type="text" class="form-control" name="soyad" id="soyad" placeholder="Soyadınız">
+                </div>  
+                <div class="mb-3">
+                    <label for="sirket" class="col-form-label">İşlədiyiniz Şirkət: </label>
+                    <input type="text" class="form-control" name="sirket" id="sirket" placeholder="Şirkət adı">
+                </div>
+                <div class="mb-3">
+                    <label for="maas" class="col-form-label">Aldığınız Maaş: </label>
+                    <input type="text" class="form-control" name="maas" id="maas" placeholder="Maaş">
+                </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Bağla</button>
+            <button type="button" class="btn btn-outline-primary" id="btn">Əlavə et</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+</body>
+</html>

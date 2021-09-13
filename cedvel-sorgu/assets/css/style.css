@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+table{
+    width: 600px;
+    border: 1px solid black;
+    border-color: black;
+    margin-bottom: 50px !important;
+}
+thead, tbody, tfoot, tr, td, th {
+    padding-left: 15px;
+    height: 20px;
+    border-width: 1px !important;
+}
+tr {
+    height: 40px !important;
+}
